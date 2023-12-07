@@ -1,0 +1,147 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+.logo {
+    width: 150px;
+    height: 90px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    padding-top: 50px;
+    font-weight: bolder;
+    color: #ca1d31;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding-top: 50px;
+    color: black;
+    font-weight: bolder;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ca1d31;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+
+.btn-primary:hover {
+    transition: 0.4s;
+    color: #fff;
+    background-color: #ca1d31;
+    border-color: #ca1d31;
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0;
+    font-weight: bolder;
+}
+
+.card-body {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.card-img,
+.card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.row .row-cols-1 .row-cols-md-3 {
+    width: 1432px;
+    height: 216px;
+}
+
+.bg-light {
+
+    background-color: white !important;
+}
+
+.banner2 {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner2 img {
+    transition: .4s;
+}
+
+.banner2 img:hover {
+    transform: scale(1.05);
+}
+
+.NEW-ARRIVAL {
+    text-align: center;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+    font-weight: bold;
+}
+
+.card-body2 {
+    text-align: center;
+}
+
+.card-body2:hover {
+    background-color: black;
+    color: white;
+
+    transition: 0.4s;
+}
+
+.card-text2 {
+    font-weight: bold;
+}
+
+.check {
+    text-align: center;
+    position: absolute;
+    left: 920px;
+}
+
+.tab-news {
+    text-align: center;
+}
+
+.text p {
+    color: #ca1d31;
+}
+
+.tab-news button {
+    width: 250px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+
+    text-align: center;
+    padding-top: 10px;
+}
+
+.tab-news button:hover {
+    background-color: #ca1d31;
+    color: white;
+    border: 1px solid #ca1d31;
+
+    transition: 0.4s;
+}
+
+.top-slide {
+    background-color: black;
+    color: white;
+    width: 1140px;
+    height: 25px;
+    text-align: center;
+}
