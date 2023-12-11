@@ -1,11 +1,19 @@
-* {
-    font-family: url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
-    ;
-}
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
 
 .logo {
     width: 150px;
     height: 90px;
+}
+
+.top-nav {
+    height: 20px;
+
+    z-index: 5 !important;
+    position: absolute;
+    top: 5px;
+    right: 110px;
+    
+    font-size: 13px;
 }
 
 .navbar-light .navbar-nav .active>.nav-link,
@@ -30,9 +38,26 @@
 .top-slide {
     background-color: black;
     color: white;
-    width: 1140px;
+    width: 1903px;
     height: 25px;
     text-align: center;
+}
+
+.card {
+    border: none;
+}
+
+.form-control {
+    border: none;
+}
+
+.mt-lg-0,
+.my-lg-0 {
+    position: absolute;
+    right: 250px;
+    top: 60px;
+
+    border-bottom: 1px solid black;
 }
 
 .hn {
@@ -49,5 +74,89 @@
 }
 
 .bg-light {
+    width: 1903px;
+    height: 120px;
+    margin-left: 200px;
     background-color: white !important;
+}
+.footer {
+    background-color: #1c1c1c;
+    height: 348px;
+    color: white;
+
+    font-size: 12px;
+}
+
+.footer small:hover {
+    color: #ca1d31;
+}
+
+.footer-top {
+    width: 1114px;
+    margin-left: 400px;
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer-top>ul>li {
+    padding-right: 100px;
+}
+
+.footer-top>ul>li>ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-top>ul>li>ul>li {
+    color: #7e7e7e;
+}
+
+.footer-top .footer-sns {
+    display: flex;
+    justify-content: space-between;
+    width: 139px;
+}
+
+.footer-top .footer-sns img {
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+}
+
+.footer-top .footer-sns img:hover {
+    background-color: #ccc;
+}
+
+.footer-bottom {
+    width: 1330px;
+    margin-left: 144px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer-bottom>ul>li>a>img {
+    width: 130px;
+    height: 50px;
+}
+
+.footer-bottom>ul>li {
+    color: #7e7e7e;
+}
+
+.footer-bottom>ul>li>ul {
+    list-style-type: none;
+    padding: 0;
 }
