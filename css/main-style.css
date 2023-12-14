@@ -154,17 +154,24 @@
 }
 
 .img-box img.img-hover {
-    display: none;
+    opacity: 0;
 }
 
 .img-box .col-sm-3:hover img.img {
     transition: 0.4s;
-    display: none;
+    opacity: 1;
 }
 
 .img-box .col-sm-3:hover img.img-hover {
     transition: 0.4s;
-    display: block
+    opacity: 2;
+
+    width: 326px;
+    height: 326px;
+
+    position: absolute;
+    top: 0px;
+    left: 14px;
 }
 
 .card-title {
