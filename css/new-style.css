@@ -1,5 +1,8 @@
-@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;500&display=swap');
 
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
 .logo {
     width: 150px;
     height: 90px;
@@ -79,6 +82,65 @@
     margin-left: 200px;
     background-color: white !important;
 }
+.user-information {
+    border: 1px solid black;
+    width: 700px;
+    height: 50px;
+    margin-left: 160px;
+}
+.input-group {
+    width: 600px;
+    height: 50px;
+    margin-left: 210px;
+}
+
+.input-group>p{
+ margin-top: 14px;
+}
+.input-group-text {
+    border: none;
+}
+.log-in {
+    margin-top: 100px;
+    width: 1000px;
+    height: 500px;
+
+    text-align: center;
+}
+
+.log-in>.row>h1 {
+    width: 1000px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.log-in button{
+    width: 600px;
+    height: 50px;
+    background-color: #ca1d31;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 210px;
+}
+.log-in button:hover{
+    background-color: #ca1d31;
+    color: white;
+}
+
+.log-in .button2{
+    width: 600px;
+    height: 50px;
+    background-color: #f5ca0f;
+    color: black;
+    border: none;
+    margin-left: 210px;
+}
+.log-in .button2:hover{
+    background-color: #f5ca0f;
+    color: black;
+}
+
+
 .footer {
     background-color: #1c1c1c;
     height: 348px;
@@ -124,6 +186,10 @@
     width: 139px;
 }
 
+.footer-top a {
+    color: white;
+    text-decoration: none;
+}
 .footer-top .footer-sns img {
     background-color: #ffffff;
     width: 30px;

@@ -1,4 +1,8 @@
-@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;500&display=swap');
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
 
 .logo {
     width: 150px;
@@ -11,7 +15,7 @@
     z-index: 5 !important;
     position: absolute;
     top: 5px;
-    right: 110px;
+    right: 115px;
 
     font-size: 13px;
 }
@@ -158,13 +162,13 @@
 }
 
 .img-box .col-sm-3:hover img.img {
-    transition: 0.4s;
-    opacity: 1;
+    transition: 0.8s;
+    opacity: 0;
 }
 
 .img-box .col-sm-3:hover img.img-hover {
-    transition: 0.4s;
-    opacity: 2;
+    transition: 0.8s;
+    opacity: 1;
 
     width: 326px;
     height: 326px;
@@ -209,7 +213,7 @@
     margin: 0 auto;
 }
 
-.text>h5>b {
+.text>h6>b {
     color: #ca1d31;
 }
 
@@ -285,10 +289,9 @@
     width: 139px;
 }
 
-.footer-top .footer-sns img {
-    background-color: #ffffff;
-    width: 30px;
-    height: 30px;
+.footer-top a {
+    color: white;
+    text-decoration: none;
 }
 
 .footer-top .footer-sns img:hover {
@@ -296,7 +299,7 @@
 }
 
 .footer-bottom {
-    width: 1309px;
+    width: 1290px;
     margin-left: 144px;
     margin-top: 30px;
     display: flex;
