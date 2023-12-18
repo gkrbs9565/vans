@@ -87,23 +87,25 @@
 .bg-light {
     width: 1903px;
     height: 120px;
-    margin-left: 200px;
+    margin-left: 230px;
     background-color: white !important;
 }
 
 .navbar-expand-lg .navbar-collapse {
     margin-left: 30px;
 }
-
+.form-inline .form-control {
+    width: 180px;
+}
 .form-control {
+    width: 100px;
     border: none;
 }
-
 
 .mt-lg-0,
 .my-lg-0 {
     position: absolute;
-    right: 250px;
+    right: 255px;
     top: 60px;
 
     border-bottom: 1px solid black;
@@ -159,6 +161,12 @@
 
 .img-box img.img-hover {
     opacity: 0;
+    width: 326.25px;
+    height: 326.25px;
+
+    position: absolute;
+    top: 0px;
+    left: 14px;
 }
 
 .img-box .col-sm-3:hover img.img {
